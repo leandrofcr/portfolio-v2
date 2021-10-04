@@ -1,7 +1,9 @@
+import Welcome from 'components/sections/hero';
+
 export default function Home() {
   return (
     <main>
-      <h2>Welcome</h2>
+      <Welcome />
     </main>
   );
 }
