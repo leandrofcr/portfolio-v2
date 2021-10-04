@@ -11,8 +11,8 @@ const jobs = [
       'Preparation of procedures;',
       'Certificate review;',
       'Implementation of the quality system and continuous improvement.',
-      'Preparation and monitoring of engine tests for development and parameterization;',
-    ],
+      'Preparation and monitoring of engine tests for development and parameterization;'
+    ]
   },
   {
     name: 'Tecnical Assistent',
@@ -22,9 +22,9 @@ const jobs = [
     description: [
       'Planning and execution of industrial cooling and air conditioning projects',
       'Updating and monitoring the occupational health and safety system',
-      'Monitoring preventive and corrective maintenance',
-    ],
-  },
+      'Monitoring preventive and corrective maintenance'
+    ]
+  }
 ];
 
 export default jobs;

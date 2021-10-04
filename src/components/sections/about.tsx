@@ -2,8 +2,6 @@ import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
-import { profilePic } from 'images';
 
 const StyledAboutSection = styled.section`
   display: flex;
@@ -63,22 +61,24 @@ const StyledPic = styled.section`
   left: 30px;
 
   img {
-    min-width: 300px;
+    width: 300px;
     border-radius: 10px;
-    /* position: absolute; */
-    /* transform: translate(-15px, -15px); */
+    position: absolute;
+    transform: translate(-15px, -15px);
     transition: transform 0.5s;
+    z-index: 1;
+    &:hover {
+      transform: translate(-10px, -10px);
+    }
   }
 
-  /*
-  div  {
-    display: block;
+  div {
     width: 300px;
     height: 280px;
     border: 3px solid #3bafca;
     border-radius: 10px;
     position: relative;
-  } */
+  }
 
   @media (max-width: 1100px) {
     div {
@@ -154,7 +154,8 @@ function About() {
 
         <section>
           <StyledPic data-aos="fade-left" data-aos-delay="500">
-            <Image src={profilePic} alt="Picture of Leandro smiling" />
+            <img src="images/me.png" alt="Leandro" />
+            <div />
           </StyledPic>
         </section>
       </div>
