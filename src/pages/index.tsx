@@ -3,10 +3,10 @@ import {
   Hero,
   About,
   Experience,
-  Projects
-  // Contact,
-  // Email,
-  // Footer,
+  Projects,
+  Contact,
+  Email,
+  Footer
 } from 'components/sections';
 
 export default function Home() {
@@ -17,6 +17,9 @@ export default function Home() {
       <About />
       <Experience />
       <Projects />
+      <Contact />
+      <Email />
+      <Footer />
     </main>
   );
 }
