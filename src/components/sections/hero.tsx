@@ -102,7 +102,7 @@ const YellowBtn = styled.a`
   }
 `;
 
-function Welcome() {
+function Hero() {
   useEffect(() => {
     Aos.init({ duration: 2000, once: true });
   }, []);
@@ -140,4 +140,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export default Hero;

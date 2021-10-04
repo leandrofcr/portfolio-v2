@@ -1,15 +1,22 @@
-import About from 'components/sections/about';
-import Experience from 'components/sections/experience';
-import Header from 'components/sections/header';
-import Welcome from 'components/sections/hero';
+import {
+  Header,
+  Hero,
+  About,
+  Experience,
+  Projects
+  // Contact,
+  // Email,
+  // Footer,
+} from 'components/sections';
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <Welcome />
+      <Hero />
       <About />
       <Experience />
+      <Projects />
     </main>
   );
 }
