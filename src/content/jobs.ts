@@ -16,7 +16,7 @@ const jobs = [
   },
   {
     name: 'Tecnical Assistent',
-    company: 'Climar - Air Conditioning Engineering ',
+    company: 'Climar - Air Conditioning Engineering',
     period: 'february - june 2014',
     url: 'https://www.climarbrasil.com.br/',
     description: [
